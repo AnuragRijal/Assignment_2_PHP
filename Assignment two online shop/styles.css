@@ -1,0 +1,112 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.header-container, .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.site-title h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation ul li {
+    margin: 0 15px;
+}
+
+.navigation ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+.navigation ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h1, main h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Actions Section for Buttons */
+.actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.actions .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.actions .button:hover {
+    background-color: #00aaff;
+    transform: translateY(-2px);
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    font-size: 0.9em;
+}
